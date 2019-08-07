@@ -112,7 +112,7 @@ a {
 .mainbodyrow {
 	display: flex;
 	justify-content: space-evenly;
-	padding: 20px;
+	padding: 40px;
 }
 .mainbodycol {
 	display: flex;
@@ -139,11 +139,10 @@ a {
 	display: flex;
 	flex-direction: column;
 	padding: 20px;
-	border-bottom: 1px solid black;
+	/* border-bottom: 1px solid black; */
 }
 .services-body {
 	padding: 20px;
-	border-bottom: 1px solid black;
 }
 
 .services-row {
@@ -174,4 +173,8 @@ ul {
 
 .services-facts-box {
 	border: none;
+}
+.bobo {
+	width: 880px;
+	margin-left: 40px;
 }
