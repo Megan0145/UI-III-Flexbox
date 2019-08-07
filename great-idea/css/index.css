@@ -91,13 +91,15 @@ a {
 	justify-content: space-around;
 	align-items: center;
 	padding: 20px;
+	background-color: lightpink;
+	position: sticky;
+	top: 0;
 }
 .jumbo {
 	display:flex;
 	justify-content: space-around;
 	align-items: center;
 	padding: 40px;
-	border-bottom: 1px solid black;
 }
 .jumbo-header {
 	display: flex;
@@ -105,9 +107,7 @@ a {
 	text-align: center;
 	
 }
-.mainbody {
-	border-bottom: 1px solid black;
-}
+
 
 .mainbodyrow {
 	display: flex;
