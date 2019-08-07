@@ -148,11 +148,9 @@ a {
 .services-body {
 	padding: 20px;
 }
-
 .services-row {
 	display: flex;
 }
-
 .services-row-box {
 	display: flex;
 	flex-direction: column;
@@ -161,7 +159,6 @@ a {
 	margin: 20px;
 	justify-content: space-evenly;
 }
-
 .learn-more-btn {
 	border: 1px solid black;
 	padding:10px;
@@ -169,12 +166,10 @@ a {
 	width: 110px;
 	border-radius: 10px;
 }
-
 .learn-more-btn:hover {
 	background-color: grey;
 	color: white;
 }
-
 ul {
 	list-style: initial;
 	margin-left: 20px;
@@ -186,4 +181,44 @@ ul {
 .bobo {
 	width: 880px;
 	margin-left: 40px;
+}
+
+/* contact page styling*/
+.contact-jumbo-pic {
+	width: 100%;
+}
+.contact-row {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+}
+.contact-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+.contact-btn {
+	border: 1px solid black;
+	padding:10px;
+}
+.contact-btn:hover {
+	font-size: 20px;
+	background-color: pink;
+	color: white;
+}
+.contact-border {
+	border: 1px solid black;
+}
+.find-us  {
+	justify-content: center;
+}
+.sm {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.sm img{
+	width: 50px;
+	height: 50px;
 }
