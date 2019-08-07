@@ -95,6 +95,10 @@ a {
 	position: sticky;
 	top: 0;
 }
+.navbar a:hover {
+	font-size: 40px;
+	color: white;
+}
 .jumbo {
 	display:flex;
 	justify-content: space-around;
@@ -164,6 +168,11 @@ a {
 	margin-top: 10px;
 	width: 110px;
 	border-radius: 10px;
+}
+
+.learn-more-btn:hover {
+	background-color: grey;
+	color: white;
 }
 
 ul {
